@@ -45,6 +45,7 @@ number of multiplier bits. Thus it allows a time gain in the partial products su
 
 | Multiplier bits   | Recoded operation on |
 | Yi+2 Yi+1 Yi Yi-1 | multiplicand, X      |
+------------------- | ---------------------
 | 0  | 0  | 0  | 0  |          0X          |
 | 0  | 0  | 0  | 1  |          +X          |
 | 0  | 0  | 1  | 0  |          +X          |
@@ -70,6 +71,7 @@ number or unsigned number. When sign-unsign s_u=0, it indicates unsigned number 
 
 
 | Sign_unsign | Type of operation       |
+------------- | ---------------------
 | 0           | Unsigned multiplication |
 | 1           | Signed multiplication   |
 
