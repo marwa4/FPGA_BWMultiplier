@@ -157,7 +157,7 @@ Next, we will evaluate the presented VHDL implementation.
 
 We run the behavioral simulation using Modelsim software. The resulted output is depicted in the Figure below.
 
- ![](Figures/simu.jpg)
+ ![](Figures/simu.JPG)
 
 The output from the simulation contains the expectede values of multiplications.
 
@@ -165,8 +165,8 @@ The output from the simulation contains the expectede values of multiplications.
 
 
 Figure below shows the RTL view of the Wallace booth algorithm.
- ![](Figures/rtl1.jpg)
- ![](Figures/rtl2.jpg) 
+ ![](Figures/rtl1.JPG)
+ ![](Figures/rtl2.JPG) 
 
  
 ## Conclusions
