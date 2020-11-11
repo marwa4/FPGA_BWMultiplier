@@ -5,9 +5,9 @@ graphics and scientific computation. With advances in technology, various techni
 which offer high speed, low power consumption and lesser area. This work is devoted for the design and simulation of Radix-8 Booth Encoder multiplier for signed-unsigned numbers. 
 
 The final project report contains: 
-* Introduction of modified booth algorithm
-* Project steps
-* Conclusions
+* [Introduction of modified booth algorithm](#introduction-of-modified-booth-algorithm)
+* [Project steps](#project-steps)
+* [Conclusions](#conclusions)
  
  ## Introduction of modified booth algorithm
 
@@ -45,39 +45,22 @@ number of multiplier bits. Thus it allows a time gain in the partial products su
 
 | Multiplier bits   | Recoded operation on |
 | Yi+2 Yi+1 Yi Yi-1 | multiplicand, X      |
---------------------------------------------
 | 0  | 0  | 0  | 0  |          0X          |
---------------------------------------------
 | 0  | 0  | 0  | 1  |          +X          |
---------------------------------------------
 | 0  | 0  | 1  | 0  |          +X          |
---------------------------------------------
 | 0  | 0  | 1  | 1  |          +2X         |
---------------------------------------------
 | 0  | 1  | 0  | 0  |          +2X         |
---------------------------------------------
 | 0  | 1  | 0  | 1  |          +3X         |
---------------------------------------------
 | 0  | 1  | 1  | 0  |          +3X         |
---------------------------------------------
 | 0  | 1  | 1  | 1  |          +4X         |
---------------------------------------------
 | 1  | 0  | 0  | 0  |          -4X         |
---------------------------------------------
 | 1  | 0  | 0  | 1  |          -3X         |
---------------------------------------------
 | 1  | 0  | 1  | 0  |          -3X         |
---------------------------------------------
 | 1  | 0  | 1  | 1  |          -2X         |
---------------------------------------------
 | 1  | 1  | 0  | 0  |          -2X         |
---------------------------------------------
 | 1  | 1  | 0  | 1  |          -X          |
---------------------------------------------
 | 1  | 1  | 1  | 0  |          -X          |
---------------------------------------------
 | 1  | 1  | 1  | 1  |          0X          |
---------------------------------------------
 
 
 Note that the sign extension corrector is designed to enhance the ability of the booth multiplier to multiply not only the unsigned number but also the signed number. 
@@ -87,11 +70,8 @@ number or unsigned number. When sign-unsign s_u=0, it indicates unsigned number 
 
 
 | Sign_unsign | Type of operation       |
------------------------------------------
 | 0           | Unsigned multiplication |
------------------------------------------
 | 1           | Signed multiplication   |
------------------------------------------
 
 
 * Partial products
